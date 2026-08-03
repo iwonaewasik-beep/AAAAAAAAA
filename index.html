@@ -7,6 +7,65 @@
   <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
+  <!-- Background Flower Decorations -->
+  <div class="flower-bg flower-top-left" aria-hidden="true">
+    <svg width="220" height="220" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g opacity="0.35" stroke="#0284c7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <!-- Main stem -->
+        <path d="M -20 -20 Q 40 50 80 140" fill="none"/>
+        <path d="M 30 38 Q 80 20 120 40" fill="none"/>
+        <!-- Leaves -->
+        <path d="M 20 28 C 30 15 45 20 38 35 C 30 42 18 35 20 28 Z" fill="#bae6fd" fill-opacity="0.4"/>
+        <path d="M 50 60 C 65 50 78 62 68 75 C 55 80 48 68 50 60 Z" fill="#bae6fd" fill-opacity="0.4"/>
+        <path d="M 70 30 C 85 15 100 25 90 40 C 80 48 65 38 70 30 Z" fill="#bae6fd" fill-opacity="0.4"/>
+        <!-- Flower 1 -->
+        <g transform="translate(120, 40)">
+          <circle cx="0" cy="0" r="6" fill="#0284c7" fill-opacity="0.5"/>
+          <path d="M 0 -8 C -6 -18 6 -18 0 -8" fill="#7dd3fc" fill-opacity="0.6"/>
+          <path d="M 0 8 C -6 18 6 18 0 8" fill="#7dd3fc" fill-opacity="0.6"/>
+          <path d="M -8 0 C -18 -6 -18 6 -8 0" fill="#7dd3fc" fill-opacity="0.6"/>
+          <path d="M 8 0 C 18 -6 18 6 8 0" fill="#7dd3fc" fill-opacity="0.6"/>
+          <path d="M -5.5 -5.5 C -14 -14 -4 -16 -5.5 -5.5" fill="#e0f2fe" fill-opacity="0.7"/>
+          <path d="M 5.5 5.5 C 14 14 4 16 5.5 5.5" fill="#e0f2fe" fill-opacity="0.7"/>
+          <path d="M 5.5 -5.5 C 14 -14 16 -4 5.5 -5.5" fill="#e0f2fe" fill-opacity="0.7"/>
+          <path d="M -5.5 5.5 C -14 14 -16 4 -5.5 5.5" fill="#e0f2fe" fill-opacity="0.7"/>
+        </g>
+        <!-- Flower 2 -->
+        <g transform="translate(75, 130)">
+          <circle cx="0" cy="0" r="5" fill="#0369a1" fill-opacity="0.5"/>
+          <path d="M 0 -7 C -5 -15 5 -15 0 -7" fill="#38bdf8" fill-opacity="0.5"/>
+          <path d="M 0 7 C -5 15 5 15 0 7" fill="#38bdf8" fill-opacity="0.5"/>
+          <path d="M -7 0 C -15 -5 -15 5 -7 0" fill="#38bdf8" fill-opacity="0.5"/>
+          <path d="M 7 0 C 15 -5 15 5 7 0" fill="#38bdf8" fill-opacity="0.5"/>
+        </g>
+      </g>
+    </svg>
+  </div>
+
+  <div class="flower-bg flower-bottom-right" aria-hidden="true">
+    <svg width="240" height="240" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g opacity="0.35" stroke="#0284c7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M 220 220 Q 150 140 100 40" fill="none"/>
+        <path d="M 160 160 Q 110 170 60 140" fill="none"/>
+        <!-- Leaves -->
+        <path d="M 140 140 C 125 150 115 135 125 125 C 135 118 148 128 140 140 Z" fill="#bae6fd" fill-opacity="0.4"/>
+        <path d="M 110 90 C 95 100 85 85 95 75 C 105 68 118 78 110 90 Z" fill="#bae6fd" fill-opacity="0.4"/>
+        <!-- Flower -->
+        <g transform="translate(60, 140)">
+          <circle cx="0" cy="0" r="6" fill="#0284c7" fill-opacity="0.5"/>
+          <path d="M 0 -8 C -6 -18 6 -18 0 -8" fill="#7dd3fc" fill-opacity="0.6"/>
+          <path d="M 0 8 C -6 18 6 18 0 8" fill="#7dd3fc" fill-opacity="0.6"/>
+          <path d="M -8 0 C -18 -6 -18 6 -8 0" fill="#7dd3fc" fill-opacity="0.6"/>
+          <path d="M 8 0 C 18 -6 18 6 8 0" fill="#7dd3fc" fill-opacity="0.6"/>
+          <path d="M -5.5 -5.5 C -14 -14 -4 -16 -5.5 -5.5" fill="#e0f2fe" fill-opacity="0.7"/>
+          <path d="M 5.5 5.5 C 14 14 4 16 5.5 5.5" fill="#e0f2fe" fill-opacity="0.7"/>
+          <path d="M 5.5 -5.5 C 14 -14 16 -4 5.5 -5.5" fill="#e0f2fe" fill-opacity="0.7"/>
+          <path d="M -5.5 5.5 C -14 14 -16 4 -5.5 5.5" fill="#e0f2fe" fill-opacity="0.7"/>
+        </g>
+      </g>
+    </svg>
+  </div>
+
   <header class="app-header">
     <h1>GenAI Finance App</h1>
     <p class="subtitle">Template starting point</p>
