@@ -167,7 +167,117 @@ button:hover {
 .price {
   font-weight: 600;
   color: var(--accent-hover);
+  margin-bottom: 1.25rem;
+}
+
+/* Indicators Grid & Cards */
+.indicators-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.indicator-card {
+  background: #f8fafc;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.indicator-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 0.75rem;
+}
+
+.indicator-title {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.indicator-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0.25rem 0;
+}
+
+.indicator-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.875rem;
+}
+
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  color: var(--subtle);
+}
+
+.stat-row strong {
+  color: var(--ink);
+}
+
+/* Badges */
+.badge {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.badge-neutral {
+  background: #e2e8f0;
+  color: #475569;
+}
+
+.badge-overbought,
+.badge-bearish {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.badge-oversold,
+.badge-bullish {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.text-green {
+  color: #16a34a !important;
+}
+
+.text-red {
+  color: #dc2626 !important;
+}
+
+/* Research Note Box */
+.note-box {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px dashed var(--line);
+}
+
+.note-box h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 .note {
